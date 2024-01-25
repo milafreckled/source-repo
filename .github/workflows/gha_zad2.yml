@@ -78,7 +78,7 @@ jobs:
         name: Check out the config_repo
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.GIT_USERNAME }}/config_repo
+          repository: ${{ vars.GIT_USERNAME }}/config-repo
           ref: main
           token: ${{ secrets.GIT_TOKEN }}
       
